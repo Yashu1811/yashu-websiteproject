@@ -1,0 +1,322 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container{
+background-color: 262A56;
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+
+}
+  .header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    color: #F3F4F6; 
+}
+.nav-title{
+    font-family: "Caveat", serif;
+   font-weight: bold;
+   display: inline-block;
+   padding-left: 10%;
+}
+.navigator{
+    padding-right: 10%;
+}
+.nav-link{
+    list-style: none;
+}
+.nav-link li{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-link li a{
+    color: #F3F4F6;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+.nav-link  a:hover{
+    background-color: #93B1A6;
+    transition: 0.5s;
+}
+#home, #about{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+.home-container{
+display: flex;
+width: 100%;
+background-color: cadetblue;
+padding: 0 10%;
+justify-content: space-between;
+align-items: center;
+}
+.home-title{
+ margin-right: 50PX;
+   
+
+}
+.home-title h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.8rem;
+    color: black;
+    padding: 0;
+    margin: 0;
+
+}
+.home-title h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+
+}
+.home-title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+.post img{
+ border: 5px solid black;
+ border-radius: 15px;
+ height: 450px;
+ margin: 50px;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+}
+  
+.about-container {
+    display: flex;
+    width: 100%;
+    background-color: #B9E5E8; 
+    padding: 0 10%;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image img{
+border-radius: 50%;
+border: 5px solid black;
+}
+.about-text{
+    width: 50%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.about-text h1{
+    
+    font-size: 4rem;
+    margin: 0;
+
+}
+.about-text p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+ #project {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .project-title{
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  .project-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;  
+    width: 100%;
+    max-width: 1000px; 
+    padding: 10px;
+  }
+  
+  .project-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .item-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .item-content {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .item-button .view {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .item-button .view:hover {
+    background-color: #0056b3;
+  }
+  #contact{
+    height: 50vh;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+   .contact-container{
+    background-color: #B7CADB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+   }
+   .contact-title{
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+   }
+   .contact-desc{
+    margin-top: 0; 
+    margin-bottom: 50px;
+    
+    
+   }
+  .contact-button .touch{
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        line-height: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-bottom: 20px;
+      
+      }
+      .contact-button .touch:hover {
+        background-color: #0056b3;
+      }
+      .contact-item{
+        justify-content: space-around;
+        
+      }
+      
+      .connect{
+        border-radius: 50%; 
+        padding: 20px;
+        }
+      .footer{
+        background-color: #DBB5B5;
+        width: 100%;
+      }
+      .footer p{
+        margin: 0;
+        margin-left: 10%;
+        padding:0 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+        
+     
+
+      
+  
+  
+  @media (max-width: 992px){
+    #home, #about{
+        height: auto;
+        width: auto;
+    }
+
+    .home-container{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .post img{
+        height:  450px;
+        margin-top: 25%;
+    }
+
+    .post{
+        margin-bottom: 30px;
+    }
+
+    .home-title{
+        margin-bottom: 100px;
+    }
+
+    .about-container{
+        flex-direction: column;
+    }
+    .about-image{
+        margin-top: 10%;
+    }
+    .about-text{
+        width: 75%;
+        margin-bottom: 50px;
+    }
+
+    #project{
+        width: auto;
+        height: auto;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+      }
+
+    .project-item{
+        margin-bottom: 50px;
+    }
+
+    .contact-container{
+        margin-top: 50px;
+    }
+}
